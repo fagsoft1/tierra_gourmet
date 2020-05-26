@@ -1,0 +1,7 @@
+zappa update dev
+zappa manage dev migrate
+zappa manage dev "collectstatic --noinput"
+
+
+"certificate_arn": "arn:aws:acm:us-east-1:312667198118:certificate/391527bd-27b1-42de-8796-dda9fe697cb1",
+"domain": "development.tierragourmet.com",
